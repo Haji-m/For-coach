@@ -61,16 +61,16 @@ nav ul li a:hover{
     padding: 20px;
 }
 
-main .contain-mainview{
-    display: block;
-    height: 600px;
+main.contain-mainview{
+    height: 700px;
     width: 100%;
-    background-image: url(image/header.jpg);
-    background-size: cover;
-    top:0;
-    left: 0;
+    margin: 20px 0 0 0;
 }
 
+main img{
+    height: auto;
+    width: 100%;
+}
 
 main .contain-article{
     width: 90%;
@@ -95,8 +95,8 @@ p{
     padding: 3px;
 }
 
-p .margin-bottom{
-    margin-bottom: 40px;
+.margin-top{
+    margin-top: 20px;
 }
 
 footer small{
